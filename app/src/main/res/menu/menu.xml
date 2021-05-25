@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Stats">
+        <menu>
+
+            <item
+                android:id="@+id/bloodPressurestats"
+                android:title="Blood Pressure"
+                android:icon="@drawable/ic_graph"/>
+            <item
+                android:id="@+id/bodytemperaturestats"
+                android:title="Body Temperature"
+                android:icon="@drawable/blood"/>
+            <item
+                android:id="@+id/heartbeatstats"
+                android:icon="@drawable/ic_heartbeat"
+                android:title="Heartbeat" />
+            <item
+                android:id="@+id/oxygenstats"
+                android:title="Oxygen Level"
+                android:icon="@drawable/ic_graph"/>
+
+            <item
+                android:id="@+id/sugarstats"
+                android:title="Sugar Level"
+                android:icon="@drawable/ic_graph"/>
+
+
+        </menu>
+    </item>
+
+</menu>
